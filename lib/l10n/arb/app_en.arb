@@ -1,0 +1,9 @@
+{
+  "@@locale": "en",
+  "appTitle": "Posts App",
+  "@appTitle": {
+    "type": "text",
+    "description": "App title",
+    "placeholders": {}
+  }
+}
