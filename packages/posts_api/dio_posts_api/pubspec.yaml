@@ -1,0 +1,17 @@
+name: dio_posts_api
+description: An API to manage posts, built on top of Dio.
+version: 0.0.1+1
+publish_to: none
+
+environment:
+  sdk: ">=3.5.1 <4.0.0"
+
+dependencies:
+  dio: ^5.7.0
+  meta: ^1.15.0
+  posts_api:
+    path: ../posts_api/
+
+dev_dependencies:
+  test: ^1.25.8
+  very_good_analysis: ^6.0.0
