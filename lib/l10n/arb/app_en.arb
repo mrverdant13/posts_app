@@ -1,5 +1,11 @@
 {
   "@@locale": "en",
+  "appTitle": "Posts App",
+  "@appTitle": {
+    "type": "text",
+    "description": "App title",
+    "placeholders": {}
+  },
   "genericUnexpectedFailureMessage": "Unexpected failure",
   "@genericUnexpectedFailureMessage": {
     "type": "text",
