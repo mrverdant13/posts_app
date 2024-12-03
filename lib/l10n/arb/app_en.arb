@@ -1,9 +1,109 @@
 {
   "@@locale": "en",
-  "appTitle": "Posts App",
-  "@appTitle": {
+  "genericUnexpectedFailureMessage": "Unexpected failure",
+  "@genericUnexpectedFailureMessage": {
     "type": "text",
-    "description": "App title",
+    "description": "Generic unexpected failure message",
+    "placeholders": {}
+  },
+  "genericUnexpectedErrorMessage": "Unexpected error",
+  "@genericUnexpectedErrorMessage": {
+    "type": "text",
+    "description": "Generic unexpected error message",
+    "placeholders": {}
+  },
+  "genericOopsMessage": "Oops!",
+  "@genericOopsMessage": {
+    "type": "text",
+    "description": "Generic oops message",
+    "placeholders": {}
+  },
+  "genericRetryButtonLabel": "Retry",
+  "@genericRetryButtonLabel": {
+    "type": "text",
+    "description": "Generic retry button label",
+    "placeholders": {}
+  },
+  "genericReadMoreMessage": "Read More",
+  "@genericReadMoreMessage": {
+    "type": "text",
+    "description": "Generic read more message",
+    "placeholders": {}
+  },
+  "homeAppBarTitle": "Home",
+  "@homeAppBarTitle": {
+    "type": "text",
+    "description": "Home app bar title",
+    "placeholders": {}
+  },
+  "blogSectionTitle": "Blog",
+  "@blogSectionTitle": {
+    "type": "text",
+    "description": "Blog section title",
+    "placeholders": {}
+  },
+  "blogSectionSummary": "This is a list of blog posts.\nYou can read more about the latest news, events, and technical articles.",
+  "@blogSectionSummary": {
+    "type": "text",
+    "description": "Blog section summary",
+    "placeholders": {}
+  },
+  "postsTabLabel": "Posts",
+  "@postsTabLabel": {
+    "type": "text",
+    "description": "Posts tab label",
+    "placeholders": {}
+  },
+  "favPostsTabLabel": "Favs",
+  "@favPostsTabLabel": {
+    "type": "text",
+    "description": "Favorite posts tab label",
+    "placeholders": {}
+  },
+  "pullToRefreshMessage": "Pull to refresh",
+  "@pullToRefreshMessage": {
+    "type": "text",
+    "description": "Pull to refresh message",
+    "placeholders": {}
+  },
+  "releaseToRefreshMessage": "Release to refresh",
+  "@releaseToRefreshMessage": {
+    "type": "text",
+    "description": "Release to refresh message",
+    "placeholders": {}
+  },
+  "refreshingMessage": "Refreshing...",
+  "@refreshingMessage": {
+    "type": "text",
+    "description": "Refreshing message",
+    "placeholders": {}
+  },
+  "doneRefreshingMessage": "Done!",
+  "@doneRefreshingMessage": {
+    "type": "text",
+    "description": "Done refreshing message",
+    "placeholders": {}
+  },
+  "postCategoryLabel": "{category, select, other{Unknown} technical{Technical} announcements{Announcements} events{Events} flutterNews{Flutter News} business{Business}}",
+  "@postCategoryLabel": {
+    "description": "Post category label",
+    "placeholders": {
+      "category": {
+        "type": "String",
+        "description": "Post category"
+      }
+    }
+  },
+  "comingSoonMessage": "Coming soon!",
+  "@comingSoonMessage": {
+    "type": "text",
+    "description": "Coming soon message",
+    "placeholders": {}
+  },
+  "postNotFoundErrorMessage": "Post not found",
+  "@postNotFoundErrorMessage": {
+    "type": "text",
+    "description": "Post not found error message",
     "placeholders": {}
   }
 }
